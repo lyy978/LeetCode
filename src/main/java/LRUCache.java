@@ -60,7 +60,7 @@ public class LRUCache {
                //删除p节点
                delete(p);
 //               print();
-               //将p添加到头节点
+               //将p添加到hi头节点
                addFirst(p);
 //               print();
                return p.value;
